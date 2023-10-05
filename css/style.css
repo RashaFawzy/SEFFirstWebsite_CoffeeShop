@@ -22,6 +22,16 @@ body
     margin-bottom: 20px;
 }
 
+.Deals h2, .Team h2, .Jobs h2, .Products h2, .Portfolio > h2, .Branches > h2
+{
+    color:#4c311a;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
 /* ////////////////////////  SECTION # 1  (Header)  ////////////////////////////////// */
 
 .navbar
@@ -640,17 +650,6 @@ color: #fffddd;
     margin-bottom: 60px;
 }
 
-.Deals h2, .Team h2, .Jobs h2, .Products h2, .Portfolio > h2, .Branches > h2
-{
-    color:#4c311a;
-    font-size: 45px;
-    font-weight: 700;
-    margin-bottom: 30px;
-    text-align: center;
-
-}
-
-
 .underline-left-align
 {
     width: 80px;
@@ -743,7 +742,6 @@ color: #fffddd;
     top:0;
     left:0;
     transition:0.5s;
-    z-index: -1;
 }
 .Deal1:hover::after 
 {
